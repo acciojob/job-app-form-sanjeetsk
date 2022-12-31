@@ -9,16 +9,17 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Job App Form</h1>
-	<form action="" method="" id="my-form">
+	<form action="" method="post" id="my-form">
 		<label for="name">Name:</label><br>
-		<input type="text" required placeholder="name" ><br>
+		<input type="text" required placeholder="name" id="name"><br>
 		<label for="eamil">Email id:</label><br>
-		<input type="email" required placeholder="eamil id"><br>
-		<label for="gender">Gender:</label><br>
-			<input type="radio" name="gender" value="Male">
-			<label for="Male">M</label><br>
-			<input type="radio" name="gender" value="Female">
-			<label for="Female">F</label><br>
+		<input type="email" required placeholder="eamil id" id="email"><br>
+		<label for="gender_m">M</label>
+		<input type="radio" id="gender_m" name="gender" required>
+		<label for="gender">F</label>
+		<input type="radio" id="gender_f" name="gender" required>
+		<br>
+
 		<label for="laptop">Laptop Brands:</label>
 		<select id="laptop" name="laptop">
 			<option value="Apple">Apple</option>
